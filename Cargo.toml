@@ -2,6 +2,9 @@
 name = "std_new"
 version = "0.1.0"
 edition = "2024"
+license = "Unlicense"
+authors = ["Jonathan A. McCormick, Jr."]
+description = "A personal standard setup for new Rust projects"
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
