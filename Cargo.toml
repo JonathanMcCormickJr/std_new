@@ -1,10 +1,15 @@
 [package]
 name = "std_new"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 license = "Unlicense"
 authors = ["Jonathan A. McCormick, Jr."]
 description = "A personal standard setup for new Rust projects"
+repository = "https://github.com/JonathanMcCormickJr/std_new"
+documentation = "https://docs.rs/std_new"
+readme = "README.md"
+keywords = ["rust", "template", "standard", "setup", "project"]
+categories = ["development-tools", "libraries"]
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
