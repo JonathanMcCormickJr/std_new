@@ -32,6 +32,9 @@ cargo doc
 
 # Clean the project build artifacts
 cargo clean
+
+# Database migration
+sqlx migrate run
 ```
 
 These commands cover the basic workflow for developing, testing, and maintaining Rust projects. Adjust them as needed based on your specific project requirements.
